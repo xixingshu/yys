@@ -248,9 +248,11 @@ class ClickerPage(QWidget):
         self.mode = Mode(window_name, mode=mode_value, game_limit=game_limit, time_limit=time_limit)
         
         self.feature_dict = {
-            "御魂": self.mode.yuhun, 
+            "御魂队长": self.mode.yuhun,
+            "御魂队员": self.mode.yuhun2, 
             "结界突破": self.mode.tupo, 
             "痴": self.mode.chi,
+            "单人困28": self.mode.fuben,
             "测试体力": self.mode.test,
             "测试金币": self.mode.test2
         }
